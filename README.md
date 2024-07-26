@@ -1,3 +1,17 @@
+#env Example 
+
+cds.requires.db.[pg].kind = 
+cds.requires.db.[pg].credentials.host = localhost
+cds.requires.db.[pg].credentials.port = 
+cds.requires.db.[pg].credentials.user = 
+cds.requires.db.[pg].credentials.password = 
+cds.requires.db.[pg].credentials.database = 
+
+cds.requires.db.[dev].kind = sqlite
+
+POSTGRES_PASSWORD = postgres
+POSTGRES_DATABASE = capt
+
 # Getting Started
 
 Welcome to your new project.
